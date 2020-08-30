@@ -15,6 +15,8 @@
 @if ($errors -> has('message'))
 <p>ERROR:{{$errors -> first('message')}}</p>
 @endif
+<p>会員ページへようこそ！</p>
+<p>ユーザーIDとパスワードを入力してください。</p>
 <form  method = "POST" action = "login">
   <table>
     @csrf
@@ -23,7 +25,7 @@
   </table>
   <input type = "submit" value = "ログイン">
 </form>
-<a href="http://localhost:8000/touroku">会員登録がまだの方はこちら</a>
+<a href="http://localhost:8000/touroku">新規会員登録はこちら</a>
 @endsection
 
 @section('footer')

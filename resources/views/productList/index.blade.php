@@ -7,7 +7,7 @@
   <div id=“contents”>
     <ul class=“list-product”>
       @foreach($items as $item)
-      <a href=“http://localhost:8000/list/detail/{{$item->code}}”>
+      <a href=http://localhost:8000/list/detail/{{$item->code}}>
         <li>
           <span class = “image”>
             <img src="{{ asset('/storage/img/'.$item->filename) }}" alt = “商品画像”>
@@ -26,8 +26,3 @@
 
 </body>
 </html>
-
-<a></a>
-<h1></h1>
-<h2></h2>
-<h3></h3>
