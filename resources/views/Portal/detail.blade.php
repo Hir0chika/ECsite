@@ -15,6 +15,8 @@
   </form>
 </table>
 
+<input type="button" value="戻る" onClick="history.back()">
+
 <p>販売者情報を削除する</p>
 <form  method = "POST" action = "/portal/delete">
 @csrf

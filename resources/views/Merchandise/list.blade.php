@@ -3,7 +3,7 @@
 
 @extends('layouts.portal')
 
-@section('title','商品一覧')
+@section('title','商品情報一覧')
 
 @section('content')
 @csrf
