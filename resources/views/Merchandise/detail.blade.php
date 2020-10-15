@@ -11,11 +11,11 @@
     <tr><th>仕入単価: </th><td><input name = "purchaseprice" value = "{{$purchaseprice}}"></td></tr>
     <tr><th>更新者名: </th><td><input name = "updatername" value = "{{$updatername}}"></td></tr>
     <tr><th>画像ファイル: </th><td><input type = "file" name = "imageFile"></td></tr>
-    <tr><th>販売者情報を修正する</th><td><input type = "submit" value = "修正する"></td></tr>
+    <tr><th>販売者情報を修正する</th><td><input type = "submit" value = "修正"></td></tr>
   </form>
 </table>
 
-<p>商品情報を削除する</p>
+<p>この商品を削除する</p>
 <form  method = "POST" action = "/merchandise/delete">
 @csrf
 <input type = "submit" value = "商品情報を削除">
